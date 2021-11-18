@@ -1,0 +1,65 @@
+body {
+  background-color: white;
+}
+
+#main {
+  background: whitesmoke;
+  display: flex;
+  margin: 100px 50px;
+  height: 100vh;
+}
+
+#left {
+  background: orange;
+  display: flex;
+  width: 40vw;
+  margin: 2em;
+}
+
+#straight {
+  background: white;
+  margin: 1em;
+  width: 40vw;
+}
+
+#leftright {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  width: 50vw;
+}
+#right-down {
+  background: whitesmoke;
+  margin: 0 1em 0 1em;
+  /* width: 50vw; */
+  height: 50vh;
+}
+
+#right-up {
+  background: whitesmoke;
+  margin: 0 1em 1em 1em;
+  /* width: 50vw; */
+  height: 50vh;
+}
+
+#right {
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  /* height: 100vh; */
+  margin: 2em;
+}
+
+#top-right {
+  background: yellowgreen;
+  margin: 1em;
+  height: 50vh;
+}
+
+#bottom-right {
+  background: cyan;
+  height: 50vh;
+  margin: 1em;
+  text-align: center;
+}
